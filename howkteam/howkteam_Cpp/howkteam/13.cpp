@@ -1,0 +1,11 @@
+#include <stdio.h> 
+#include <stdio.h> 
+void func(void)
+{
+	printf("Hello");
+}
+void main()
+{
+	func();
+	func(2);
+}
